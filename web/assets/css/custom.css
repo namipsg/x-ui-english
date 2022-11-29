@@ -1,14 +1,19 @@
 @font-face {
   font-family: "Vazir";
-  src: url("assets/fonts/Vazir-Medium-FD.woff2") format("woff2"),
-    url("assets/fonts/Vazir-Medium-FD.woff") format("woff"),
-    url("assets/fonts/Vazir-Medium-FD.eot") format("eot"),
-    url("assets/fonts/Vazir-Medium-FD.ttf") format("ttf");
+  src: url("/assets/fonts/Vazir-Medium-FD.woff2") format("woff2"),
+    url("/assets/fonts/Vazir-Medium-FD.woff") format("woff"),
+    url("/assets/fonts/Vazir-Medium-FD.eot") format("eot"),
+    url("/assets/fonts/Vazir-Medium-FD.ttf") format("ttf");
 }
 
 #app {
   height: 100%;
   font-family: "Vazir" !important;
+}
+
+.ant-layout.ant-layout-has-sider > .ant-layout,
+.ant-layout.ant-layout-has-sider > .ant-layout-content {
+  text-align: right !important;
 }
 
 .ant-space {
