@@ -11,10 +11,6 @@
   font-family: "Vazir" !important;
 }
 
-.ant-layout.ant-layout-has-sider > .ant-layout,
-.ant-layout.ant-layout-has-sider > .ant-layout-content {
-  text-align: right !important;
-}
 
 .ant-space {
   width: 100%;
